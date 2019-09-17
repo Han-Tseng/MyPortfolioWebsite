@@ -1,0 +1,103 @@
+/*Styles for multiple pages*/
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.navigationbar ul {
+    background-color: rgba(0%, 0%, 0%, 0.5);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigationbar a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 1vw 8vw;
+    font-size: 125%;
+    color: white;
+    text-align: center;
+}
+
+.navigationbar a:hover{
+    background-color: rgba(0%, 0%, 0%, 0.8);
+}
+
+.heading {
+    padding: 1vw;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 125%;
+}
+
+.subpages {
+    background-image: url("IMG_0888.JPG");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styles for the home page*/
+.homepage {
+    background-image: url("IMG_0888.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Styles for the about page*/
+.intropics {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 125%;
+}
+
+.introtext {
+    float: right;
+    width: 47.9%;
+    background-color: rgba(0%, 0%, 0%, 0.3);
+    padding: 1vw;
+}
+
+/*Styles for the locations page */
+.allrectangles {
+    text-align: center;
+    color: white;
+    font-size: 125%;
+}
+
+.alltext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.us {
+    position: relative;
+    float: left;
+    width: 31.97%;
+    margin-left: 1vw;
+}
+
+
+.china {
+    position: relative;
+    display: inline-block;
+    width: 31.97%;
+    margin-left: 1vw;
+}
+
+.japan {
+    position: relative;
+    float: right;
+    width: 31.97%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+/*Styles for the contact me page*/

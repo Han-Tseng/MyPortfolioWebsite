@@ -7,6 +7,7 @@ body {
 .navigationbar ul {
     background-color: rgba(0%, 0%, 0%, 0.5);
     padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
 }
@@ -14,60 +15,83 @@ body {
 .navigationbar a{
     list-style-type: none;
     text-decoration: none;
-    margin: 1vw 8vw;
-    font-size: 125%;
+    padding: 0.75vw 8.75vw;
     color: white;
-    text-align: center;
+    text-align: center; 
 }
 
 .navigationbar a:hover{
     background-color: rgba(0%, 0%, 0%, 0.8);
 }
 
-.heading {
-    padding: 1vw;
-    height: 100%;
-    text-align: center;
-    color: white;
-    font-size: 125%;
-}
-
-.subpages {
+.subheading {
     background-image: url("IMG_0888.JPG");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 125%;
+    margin-bottom: 3vw;
+}
+
+h3 {
+    font-size: 150%;
 }
 
 /* Styles for the home page*/
-.homepage {
+.heading {
     background-image: url("IMG_0888.JPG");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 125%;
+}
+
+.headingtext {
+    text-align: center;
+    color: white;
+    margin: 5vw;
+    font-size: 125%;
 }
 
 /*Styles for the about page*/
-.intropics {
+.intropictures {
     float: left;
-    width: 50%;
+    width: 47.9%;
     text-align: center;
+    background-color: rgba(0%, 0%, 0%, 0.2);
     font-size: 125%;
 }
 
 .introtext {
     float: right;
     width: 47.9%;
-    background-color: rgba(0%, 0%, 0%, 0.3);
-    padding: 1vw;
+    padding: 2vw;
 }
 
-/*Styles for the locations page */
-.allrectangles {
-    text-align: center;
-    color: white;
-    font-size: 125%;
+.picture {
+    padding: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+/*Styles for the Location Page*/
+#us {
+    position: relative;
+    float: left;
+}
+
+#china {
+    position: relative;
+    display: inline-block;
+}
+
+#japan {
+    position: relative;
+    float: right;
 }
 
 .alltext {
@@ -75,29 +99,52 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 2vw;
+    background: rgba(0%, 0%, 0%, 0.5);
+    color: white;
+    font-size: 125%;
 }
 
-.us {
-    position: relative;
-    float: left;
-    width: 31.97%;
-    margin-left: 1vw;
+.a {
+    color: white;
+    text-decoration: none;
 }
 
-
-.china {
-    position: relative;
-    display: inline-block;
-    width: 31.97%;
-    margin-left: 1vw;
+/*Styles for the Locations, US, China, Japan pages*/
+.allrectangles {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.japan {
-    position: relative;
-    float: right;
-    width: 31.97%;
-    margin-left: 1vw;
-    margin-right: 1vw;
+.allrectanglesgrey {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0%, 0%, 0%, 0.3);
+}
+
+.rectangle {
+    width: 30%;
+    padding: 1vw;
+    text-align: center;
 }
 
 /*Styles for the contact me page*/
+.contactdescription {
+    text-align: center;
+}
+
+.allaccounts {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.account {
+    width: 22.5%;
+    padding: 1vw;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
